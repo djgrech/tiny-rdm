@@ -192,7 +192,7 @@ const onSave = async () => {
         return;
     }
 
-    const headers = Object.keys(data.list[0])
+    const headers = Object.keys(data.list[0]);
 
     const csv = [
       headers.join(','),
