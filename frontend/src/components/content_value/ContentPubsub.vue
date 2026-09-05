@@ -225,7 +225,6 @@ const onSave = async () => {
         }
         throw error;
   }
-
 }
 
 const onPublish = async () => {
